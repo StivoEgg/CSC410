@@ -1,0 +1,108 @@
+Testsuite: gov.nasa.jpf.test.vm.basic.CastTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.852 sec
+------------- Standard Output ---------------
+  running jpf with args:
+[WARNING] unknown classpath element: /Users/nshafiei/workspace-jpf/nhandler-ws/jpf-nhandler/build/jpf-nhandler-classes.jar
+JavaPathfinder core system v8.0 (rev 32) - (C) 2005-2014 United States Government. All rights reserved.
+
+
+====================================================== system under test
+gov.nasa.jpf.test.vm.basic.CastTest.runTestMethod()
+
+====================================================== search started: 2/7/17 12:41 PM
+
+====================================================== results
+no errors detected
+
+====================================================== search finished: 2/7/17 12:41 PM
+  running jpf with args:
+[WARNING] unknown classpath element: /Users/nshafiei/workspace-jpf/nhandler-ws/jpf-nhandler/build/jpf-nhandler-classes.jar
+JavaPathfinder core system v8.0 (rev 32) - (C) 2005-2014 United States Government. All rights reserved.
+
+
+====================================================== system under test
+gov.nasa.jpf.test.vm.basic.CastTest.runTestMethod()
+
+====================================================== search started: 2/7/17 12:41 PM
+
+====================================================== results
+no errors detected
+
+====================================================== search finished: 2/7/17 12:41 PM
+  running jpf with args:
+[WARNING] unknown classpath element: /Users/nshafiei/workspace-jpf/nhandler-ws/jpf-nhandler/build/jpf-nhandler-classes.jar
+JavaPathfinder core system v8.0 (rev 32) - (C) 2005-2014 United States Government. All rights reserved.
+
+
+====================================================== system under test
+gov.nasa.jpf.test.vm.basic.CastTest.runTestMethod()
+
+====================================================== search started: 2/7/17 12:41 PM
+
+====================================================== error 1
+gov.nasa.jpf.vm.NoUncaughtExceptionsProperty
+java.lang.ClassCastException: gov.nasa.jpf.test.vm.basic.CastTest$A cannot be cast to gov.nasa.jpf.test.vm.basic.CastTest$I
+	at gov.nasa.jpf.test.vm.basic.CastTest.testCastFail(CastTest.java:47)
+	at java.lang.reflect.Method.invoke(gov.nasa.jpf.vm.JPF_java_lang_reflect_Method)
+	at gov.nasa.jpf.util.test.TestJPF.runTestMethod(TestJPF.java:648)
+
+
+====================================================== snapshot #1
+thread java.lang.Thread:{id:0,name:main,status:RUNNING,priority:5,isDaemon:false,lockCount:0,suspendCount:0}
+  call stack:
+	at gov.nasa.jpf.util.test.TestJPF.runTestMethod(TestJPF.java:650)
+
+
+====================================================== results
+error #1: gov.nasa.jpf.vm.NoUncaughtExceptionsProperty "java.lang.ClassCastException: gov.nasa.jpf.test.vm..."
+
+====================================================== search finished: 2/7/17 12:41 PM
+  running jpf with args:
+[WARNING] unknown classpath element: /Users/nshafiei/workspace-jpf/nhandler-ws/jpf-nhandler/build/jpf-nhandler-classes.jar
+JavaPathfinder core system v8.0 (rev 32) - (C) 2005-2014 United States Government. All rights reserved.
+
+
+====================================================== system under test
+gov.nasa.jpf.test.vm.basic.CastTest.runTestMethod()
+
+====================================================== search started: 2/7/17 12:41 PM
+
+====================================================== error 1
+gov.nasa.jpf.vm.NoUncaughtExceptionsProperty
+java.lang.ClassCastException: [Ljava.lang.String; cannot be cast to [Ljava.lang.Number;
+	at gov.nasa.jpf.test.vm.basic.CastTest.testArrayCastFail(CastTest.java:63)
+	at java.lang.reflect.Method.invoke(gov.nasa.jpf.vm.JPF_java_lang_reflect_Method)
+	at gov.nasa.jpf.util.test.TestJPF.runTestMethod(TestJPF.java:648)
+
+
+====================================================== snapshot #1
+thread java.lang.Thread:{id:0,name:main,status:RUNNING,priority:5,isDaemon:false,lockCount:0,suspendCount:0}
+  call stack:
+	at gov.nasa.jpf.util.test.TestJPF.runTestMethod(TestJPF.java:650)
+
+
+====================================================== results
+error #1: gov.nasa.jpf.vm.NoUncaughtExceptionsProperty "java.lang.ClassCastException: [Ljava.lang.String; ..."
+
+====================================================== search finished: 2/7/17 12:41 PM
+  running jpf with args:
+[WARNING] unknown classpath element: /Users/nshafiei/workspace-jpf/nhandler-ws/jpf-nhandler/build/jpf-nhandler-classes.jar
+JavaPathfinder core system v8.0 (rev 32) - (C) 2005-2014 United States Government. All rights reserved.
+
+
+====================================================== system under test
+gov.nasa.jpf.test.vm.basic.CastTest.runTestMethod()
+
+====================================================== search started: 2/7/17 12:41 PM
+
+====================================================== results
+no errors detected
+
+====================================================== search finished: 2/7/17 12:41 PM
+------------- ---------------- ---------------
+
+Testcase: testCast took 0.446 sec
+Testcase: testArrayCast took 0.121 sec
+Testcase: testCastFail took 0.109 sec
+Testcase: testArrayCastFail took 0.082 sec
+Testcase: testPrimitiveArrayCast took 0.08 sec

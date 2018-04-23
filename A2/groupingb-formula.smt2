@@ -1,0 +1,30 @@
+(declare-const x1 Int)
+(declare-const x2 Int)
+(declare-const x3 Int)
+(declare-const x4 Int)
+(declare-const x5 Int)
+(declare-const a1 (Array Int Int))
+(define-fun equal ((x Int) (y Int)) Int (ite (= x y) 1 0))
+
+(assert (and (> x1 0) (> x2 0) (> x3 0) (> x4 0) (> x5 0)))
+(assert (and (<= x1 5) (<= x2 5) (<= x3 5) (<= x4 5) (<= x5 5)))
+(assert (distinct x1 x2 x3 x4 x5))
+(assert (= (+ x1 x2 x3 x4 x5) 15))
+
+;; prefence
+(maximize (+ (equal x1 2) (equal x1 3) (equal x1 4) (equal x2 1) (equal x2 3) (equal x2 5) (equal x3 2) (equal x3 1) (equal x4 1) (equal x5 2)))
+;; as many pair as possible
+(minimize (+ (equal x1 1) (equal x2 2) (equal x3 3) (equal x4 4) (equal x5 5)))
+
+(assert (= (select a1 1) x1))
+(assert (= (select a1 2) x2))
+(assert (= (select a1 3) x3))
+(assert (= (select a1 4) x4))
+(assert (= (select a1 5) x5))
+(assert (= 1 (select a1 (select a1 1))))
+(assert (= 2 (select a1 (select a1 2))))
+(assert (= 3 (select a1 (select a1 3))))
+(assert (= 4 (select a1 (select a1 4))))
+(assert (= 5 (select a1 (select a1 5))))
+(check-sat)
+(get-model)

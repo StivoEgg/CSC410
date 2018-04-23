@@ -1,0 +1,81 @@
+Testsuite: gov.nasa.jpf.test.mc.threads.OldClassicTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.595 sec
+------------- Standard Output ---------------
+  running jpf with args: +search.class=gov.nasa.jpf.search.heuristic.BFSHeuristic
+[WARNING] unknown classpath element: /Users/nshafiei/workspace-jpf/nhandler-ws/jpf-nhandler/build/jpf-nhandler-classes.jar
+JavaPathfinder core system v8.0 (rev 32) - (C) 2005-2014 United States Government. All rights reserved.
+
+
+====================================================== system under test
+gov.nasa.jpf.test.mc.threads.OldClassicTest.runTestMethod()
+
+====================================================== search started: 2/7/17 12:40 PM
+
+====================================================== error 1
+gov.nasa.jpf.vm.NotDeadlockedProperty
+deadlock encountered:
+  thread gov.nasa.jpf.test.mc.threads.OldClassicTest$FirstTask:{id:1,name:Thread-1,status:WAITING,priority:5,isDaemon:false,lockCount:1,suspendCount:0}
+  thread gov.nasa.jpf.test.mc.threads.OldClassicTest$SecondTask:{id:2,name:Thread-2,status:WAITING,priority:5,isDaemon:false,lockCount:1,suspendCount:0}
+
+
+====================================================== snapshot #1
+thread gov.nasa.jpf.test.mc.threads.OldClassicTest$FirstTask:{id:1,name:Thread-1,status:WAITING,priority:5,isDaemon:false,lockCount:1,suspendCount:0}
+  waiting on: gov.nasa.jpf.test.mc.threads.OldClassicTest$Event@184
+  call stack:
+	at java.lang.Object.wait(Object.java)
+	at gov.nasa.jpf.test.mc.threads.OldClassicTest$Event.wait_for_event(OldClassicTest.java:38)
+	at gov.nasa.jpf.test.mc.threads.OldClassicTest$FirstTask.run(OldClassicTest.java:62)
+
+thread gov.nasa.jpf.test.mc.threads.OldClassicTest$SecondTask:{id:2,name:Thread-2,status:WAITING,priority:5,isDaemon:false,lockCount:1,suspendCount:0}
+  waiting on: gov.nasa.jpf.test.mc.threads.OldClassicTest$Event@185
+  call stack:
+	at java.lang.Object.wait(Object.java)
+	at gov.nasa.jpf.test.mc.threads.OldClassicTest$Event.wait_for_event(OldClassicTest.java:38)
+	at gov.nasa.jpf.test.mc.threads.OldClassicTest$SecondTask.run(OldClassicTest.java:89)
+
+
+====================================================== results
+error #1: gov.nasa.jpf.vm.NotDeadlockedProperty "deadlock encountered:   thread gov.nasa.jpf.test.m..."
+
+====================================================== search finished: 2/7/17 12:40 PM
+  running jpf with args:
+[WARNING] unknown classpath element: /Users/nshafiei/workspace-jpf/nhandler-ws/jpf-nhandler/build/jpf-nhandler-classes.jar
+JavaPathfinder core system v8.0 (rev 32) - (C) 2005-2014 United States Government. All rights reserved.
+
+
+====================================================== system under test
+gov.nasa.jpf.test.mc.threads.OldClassicTest.runTestMethod()
+
+====================================================== search started: 2/7/17 12:40 PM
+
+====================================================== error 1
+gov.nasa.jpf.vm.NotDeadlockedProperty
+deadlock encountered:
+  thread gov.nasa.jpf.test.mc.threads.OldClassicTest$FirstTask:{id:1,name:Thread-1,status:WAITING,priority:5,isDaemon:false,lockCount:1,suspendCount:0}
+  thread gov.nasa.jpf.test.mc.threads.OldClassicTest$SecondTask:{id:2,name:Thread-2,status:WAITING,priority:5,isDaemon:false,lockCount:1,suspendCount:0}
+
+
+====================================================== snapshot #1
+thread gov.nasa.jpf.test.mc.threads.OldClassicTest$FirstTask:{id:1,name:Thread-1,status:WAITING,priority:5,isDaemon:false,lockCount:1,suspendCount:0}
+  waiting on: gov.nasa.jpf.test.mc.threads.OldClassicTest$Event@182
+  call stack:
+	at java.lang.Object.wait(Object.java)
+	at gov.nasa.jpf.test.mc.threads.OldClassicTest$Event.wait_for_event(OldClassicTest.java:38)
+	at gov.nasa.jpf.test.mc.threads.OldClassicTest$FirstTask.run(OldClassicTest.java:62)
+
+thread gov.nasa.jpf.test.mc.threads.OldClassicTest$SecondTask:{id:2,name:Thread-2,status:WAITING,priority:5,isDaemon:false,lockCount:1,suspendCount:0}
+  waiting on: gov.nasa.jpf.test.mc.threads.OldClassicTest$Event@183
+  call stack:
+	at java.lang.Object.wait(Object.java)
+	at gov.nasa.jpf.test.mc.threads.OldClassicTest$Event.wait_for_event(OldClassicTest.java:38)
+	at gov.nasa.jpf.test.mc.threads.OldClassicTest$SecondTask.run(OldClassicTest.java:89)
+
+
+====================================================== results
+error #1: gov.nasa.jpf.vm.NotDeadlockedProperty "deadlock encountered:   thread gov.nasa.jpf.test.m..."
+
+====================================================== search finished: 2/7/17 12:40 PM
+------------- ---------------- ---------------
+
+Testcase: testBFSHeuristic took 0.453 sec
+Testcase: testDFSearch took 0.13 sec

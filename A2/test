@@ -1,0 +1,35 @@
+unsupported
+unsupported
+unsupported
+unsupported
+unsupported
+unsupported
+unsupported
+unsupported
+unsupported
+unsupported
+x3x4 = False
+x4x5 = True
+x1x4 = False
+x1x3 = False
+x2x5 = False
+x4x2 = False
+x2 = False
+x3x2 = False
+x1 = False
+x1x2 = True
+x3x5 = False
+x2x3 = False
+x3x1 = False
+x5x4 = True
+x2x4 = False
+x2x1 = True
+x4x1 = False
+x1x5 = False
+x3 = True
+x5x2 = False
+x5x1 = False
+x4x3 = False
+x4 = False
+x5 = False
+x5x3 = False

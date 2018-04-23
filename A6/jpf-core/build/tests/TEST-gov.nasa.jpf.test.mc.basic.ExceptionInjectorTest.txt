@@ -1,0 +1,63 @@
+Testsuite: gov.nasa.jpf.test.mc.basic.ExceptionInjectorTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.603 sec
+------------- Standard Output ---------------
+  running jpf with args: +listener=.listener.ExceptionInjector +ei.exception=java.lang.ArithmeticException@gov.nasa.jpf.test.mc.basic.ExceptionInjectorTest:41
+[WARNING] unknown classpath element: /Users/nshafiei/workspace-jpf/nhandler-ws/jpf-nhandler/build/jpf-nhandler-classes.jar
+java.lang.ArithmeticException@gov.nasa.jpf.test.mc.basic.ExceptionInjectorTest:41
+JavaPathfinder core system v8.0 (rev 32) - (C) 2005-2014 United States Government. All rights reserved.
+
+
+====================================================== system under test
+gov.nasa.jpf.test.mc.basic.ExceptionInjectorTest.runTestMethod()
+
+====================================================== search started: 2/7/17 12:40 PM
+got it handled
+java.lang.ArithmeticException
+	at gov.nasa.jpf.test.mc.basic.ExceptionInjectorTest.testAbsLine(ExceptionInjectorTest.java:41)
+	at java.lang.reflect.Method.invoke(gov.nasa.jpf.vm.JPF_java_lang_reflect_Method)
+	at gov.nasa.jpf.util.test.TestJPF.runTestMethod(TestJPF.java:648)
+
+====================================================== results
+no errors detected
+
+====================================================== search finished: 2/7/17 12:40 PM
+  running jpf with args: +listener=.listener.ExceptionInjector +ei.exception=java.io.IOException@java.io.File.createTempFile(java.lang.String,java.lang.String)
+[WARNING] unknown classpath element: /Users/nshafiei/workspace-jpf/nhandler-ws/jpf-nhandler/build/jpf-nhandler-classes.jar
+java.io.IOException@java.io.File.createTempFile(Ljava/lang/String;Ljava/lang/String;)
+JavaPathfinder core system v8.0 (rev 32) - (C) 2005-2014 United States Government. All rights reserved.
+
+
+====================================================== system under test
+gov.nasa.jpf.test.mc.basic.ExceptionInjectorTest.runTestMethod()
+
+====================================================== search started: 2/7/17 12:40 PM
+java.io.IOException
+	at gov.nasa.jpf.test.mc.basic.ExceptionInjectorTest.testCallee(ExceptionInjectorTest.java:83)
+	at java.lang.reflect.Method.invoke(gov.nasa.jpf.vm.JPF_java_lang_reflect_Method)
+	at gov.nasa.jpf.util.test.TestJPF.runTestMethod(TestJPF.java:648)
+
+====================================================== results
+no errors detected
+
+====================================================== search finished: 2/7/17 12:40 PM
+  running jpf with args: +listener=.listener.ExceptionInjector +ei.exception=gov.nasa.jpf.test.mc.basic.ExceptionInjectorTest$Zapp("gotcha")@gov.nasa.jpf.test.mc.basic.ExceptionInjectorTest.testMethodOffset():6
+[WARNING] unknown classpath element: /Users/nshafiei/workspace-jpf/nhandler-ws/jpf-nhandler/build/jpf-nhandler-classes.jar
+gov.nasa.jpf.test.mc.basic.ExceptionInjectorTest$Zapp("gotcha")@gov.nasa.jpf.test.mc.basic.ExceptionInjectorTest.testMethodOffset():6
+JavaPathfinder core system v8.0 (rev 32) - (C) 2005-2014 United States Government. All rights reserved.
+
+
+====================================================== system under test
+gov.nasa.jpf.test.mc.basic.ExceptionInjectorTest.runTestMethod()
+
+====================================================== search started: 2/7/17 12:40 PM
+gov.nasa.jpf.test.mc.basic.ExceptionInjectorTest$Zapp: gotcha
+
+====================================================== results
+no errors detected
+
+====================================================== search finished: 2/7/17 12:40 PM
+------------- ---------------- ---------------
+
+Testcase: testAbsLine took 0.38 sec
+Testcase: testCallee took 0.12 sec
+Testcase: testMethodOffset took 0.09 sec

@@ -1,0 +1,52 @@
+Testsuite: gov.nasa.jpf.test.mc.threads.SchedulesTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.402 sec
+------------- Standard Output ---------------
+  running jpf with args: +cg.threads.break_start=true +cg.threads.break_yield=true +cg.threads.break_sleep=true +listener=.listener.PathOutputMonitor +pom.all=test/gov/nasa/jpf/test/mc/threads/SchedulesTest-output
+[WARNING] unknown classpath element: /Users/nshafiei/workspace-jpf/nhandler-ws/jpf-nhandler/build/jpf-nhandler-classes.jar
+[WARNING] pattern file not found: test/gov/nasa/jpf/test/mc/threads/SchedulesTest-output
+JavaPathfinder core system v8.0 (rev 32) - (C) 2005-2014 United States Government. All rights reserved.
+
+
+====================================================== system under test
+gov.nasa.jpf.test.mc.threads.SchedulesTest.runTestMethod()
+
+====================================================== search started: 2/7/17 12:40 PM
+main starting T
+main finished
+T started
+T sleeping
+T finished
+T started
+T sleeping
+main finished
+T finished
+T finished
+main finished
+
+====================================================== path outputs
+main starting T
+main finished
+T started
+T sleeping
+T finished
+~~~
+main starting T
+T started
+T sleeping
+main finished
+T finished
+~~~
+main starting T
+T started
+T sleeping
+T finished
+main finished
+~~~
+
+====================================================== results
+no errors detected
+
+====================================================== search finished: 2/7/17 12:40 PM
+------------- ---------------- ---------------
+
+Testcase: testSleep took 0.391 sec

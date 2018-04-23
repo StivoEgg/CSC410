@@ -1,0 +1,8 @@
+Testsuite: gov.nasa.jpf.vm.ClassLoaderInfoTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.32 sec
+------------- Standard Output ---------------
+[WARNING] unknown classpath element: /Users/nshafiei/workspace-jpf/nhandler-ws/jpf-nhandler/build/jpf-nhandler-classes.jar
+[WARNING] unknown classpath element: /Users/nshafiei/workspace-jpf/nhandler-ws/jpf-nhandler/build/jpf-nhandler-classes.jar
+------------- ---------------- ---------------
+
+Testcase: testSystemClassLoader took 0.309 sec

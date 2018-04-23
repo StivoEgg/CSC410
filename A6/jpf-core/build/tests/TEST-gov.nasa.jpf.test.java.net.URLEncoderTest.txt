@@ -1,0 +1,40 @@
+Testsuite: gov.nasa.jpf.test.java.net.URLEncoderTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.589 sec
+------------- Standard Output ---------------
+  running jpf with args:
+[WARNING] unknown classpath element: /Users/nshafiei/workspace-jpf/nhandler-ws/jpf-nhandler/build/jpf-nhandler-classes.jar
+JavaPathfinder core system v8.0 (rev 32) - (C) 2005-2014 United States Government. All rights reserved.
+
+
+====================================================== system under test
+gov.nasa.jpf.test.java.net.URLEncoderTest.runTestMethod()
+
+====================================================== search started: 2/7/17 12:39 PM
+original: < what a mess >
+encoded:  %3C+what+a+mess+%3E
+decoded:  < what a mess >
+
+====================================================== results
+no errors detected
+
+====================================================== search finished: 2/7/17 12:39 PM
+  running jpf with args:
+[WARNING] unknown classpath element: /Users/nshafiei/workspace-jpf/nhandler-ws/jpf-nhandler/build/jpf-nhandler-classes.jar
+JavaPathfinder core system v8.0 (rev 32) - (C) 2005-2014 United States Government. All rights reserved.
+
+
+====================================================== system under test
+gov.nasa.jpf.test.java.net.URLEncoderTest.runTestMethod()
+
+====================================================== search started: 2/7/17 12:39 PM
+original: < what a mess >
+rightfully throws java.io.UnsupportedEncodingException: wrgsGrff
+
+====================================================== results
+no errors detected
+
+====================================================== search finished: 2/7/17 12:39 PM
+------------- ---------------- ---------------
+
+Testcase: testEncodeCycle took 0.432 sec
+Testcase: testEncodingException took 0.145 sec

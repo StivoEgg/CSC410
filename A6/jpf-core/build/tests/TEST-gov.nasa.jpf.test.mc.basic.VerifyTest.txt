@@ -1,0 +1,118 @@
+Testsuite: gov.nasa.jpf.test.mc.basic.VerifyTest
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.935 sec
+------------- Standard Output ---------------
+  running jpf with args: +hum=didum
+[WARNING] unknown classpath element: /Users/nshafiei/workspace-jpf/nhandler-ws/jpf-nhandler/build/jpf-nhandler-classes.jar
+JavaPathfinder core system v8.0 (rev 32) - (C) 2005-2014 United States Government. All rights reserved.
+
+
+====================================================== system under test
+gov.nasa.jpf.test.mc.basic.VerifyTest.runTestMethod()
+
+====================================================== search started: 2/7/17 12:40 PM
+got hum=didum
+got foo=bar
+
+====================================================== results
+no errors detected
+
+====================================================== search finished: 2/7/17 12:40 PM
+  running jpf with args: +listener+=,gov.nasa.jpf.test.mc.basic.VerifyTest$CountBacktrack +vm.max_transition_length=MAX
+[WARNING] unknown classpath element: /Users/nshafiei/workspace-jpf/nhandler-ws/jpf-nhandler/build/jpf-nhandler-classes.jar
+JavaPathfinder core system v8.0 (rev 32) - (C) 2005-2014 United States Government. All rights reserved.
+
+
+====================================================== system under test
+gov.nasa.jpf.test.mc.basic.VerifyTest.runTestMethod()
+
+====================================================== search started: 2/7/17 12:40 PM
+
+====================================================== results
+no errors detected
+
+====================================================== search finished: 2/7/17 12:40 PM
+  running jpf with args:
+[WARNING] unknown classpath element: /Users/nshafiei/workspace-jpf/nhandler-ws/jpf-nhandler/build/jpf-nhandler-classes.jar
+JavaPathfinder core system v8.0 (rev 32) - (C) 2005-2014 United States Government. All rights reserved.
+
+
+====================================================== system under test
+gov.nasa.jpf.test.mc.basic.VerifyTest.runTestMethod()
+
+====================================================== search started: 2/7/17 12:40 PM
+
+====================================================== results
+no errors detected
+
+====================================================== search finished: 2/7/17 12:40 PM
+  running jpf with args:
+[WARNING] unknown classpath element: /Users/nshafiei/workspace-jpf/nhandler-ws/jpf-nhandler/build/jpf-nhandler-classes.jar
+JavaPathfinder core system v8.0 (rev 32) - (C) 2005-2014 United States Government. All rights reserved.
+
+
+====================================================== system under test
+gov.nasa.jpf.test.mc.basic.VerifyTest.runTestMethod()
+
+====================================================== search started: 2/7/17 12:40 PM
+
+====================================================== Grouped By: type
+All  (choices: 0, generators: 0)
+
+====================================================== Grouped By: package, class, method, instruction, type
+All  (choices: 0, generators: 0)
+
+====================================================== results
+no errors detected
+
+====================================================== search finished: 2/7/17 12:40 PM
+  running jpf with args:
+[WARNING] unknown classpath element: /Users/nshafiei/workspace-jpf/nhandler-ws/jpf-nhandler/build/jpf-nhandler-classes.jar
+JavaPathfinder core system v8.0 (rev 32) - (C) 2005-2014 United States Government. All rights reserved.
+
+
+====================================================== system under test
+gov.nasa.jpf.test.mc.basic.VerifyTest.runTestMethod()
+
+====================================================== search started: 2/7/17 12:40 PM
+
+====================================================== results
+no errors detected
+
+====================================================== search finished: 2/7/17 12:40 PM
+  running jpf with args:
+[WARNING] unknown classpath element: /Users/nshafiei/workspace-jpf/nhandler-ws/jpf-nhandler/build/jpf-nhandler-classes.jar
+JavaPathfinder core system v8.0 (rev 32) - (C) 2005-2014 United States Government. All rights reserved.
+
+
+====================================================== system under test
+gov.nasa.jpf.test.mc.basic.VerifyTest.runTestMethod()
+
+====================================================== search started: 2/7/17 12:40 PM
+
+====================================================== results
+no errors detected
+
+====================================================== search finished: 2/7/17 12:40 PM
+  running jpf with args:
+[WARNING] unknown classpath element: /Users/nshafiei/workspace-jpf/nhandler-ws/jpf-nhandler/build/jpf-nhandler-classes.jar
+JavaPathfinder core system v8.0 (rev 32) - (C) 2005-2014 United States Government. All rights reserved.
+
+
+====================================================== system under test
+gov.nasa.jpf.test.mc.basic.VerifyTest.runTestMethod()
+
+====================================================== search started: 2/7/17 12:40 PM
+
+====================================================== results
+no errors detected
+
+====================================================== search finished: 2/7/17 12:40 PM
+------------- ---------------- ---------------
+
+Testcase: testProperties took 0.396 sec
+Testcase: backtrackNotificationAfterIgnore took 0.128 sec
+Testcase: testBreak took 0.101 sec
+Testcase: testChangeListener took 0.078 sec
+Testcase: testGetBoolean took 0.082 sec
+Testcase: testGetBooleanFalseFirst took 0.073 sec
+Testcase: testBitSet took 0.062 sec

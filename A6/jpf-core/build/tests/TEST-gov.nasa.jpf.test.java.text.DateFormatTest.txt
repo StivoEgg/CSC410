@@ -1,0 +1,56 @@
+Testsuite: gov.nasa.jpf.test.java.text.DateFormatTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.395 sec
+------------- Standard Output ---------------
+  running jpf with args:
+[WARNING] unknown classpath element: /Users/nshafiei/workspace-jpf/nhandler-ws/jpf-nhandler/build/jpf-nhandler-classes.jar
+JavaPathfinder core system v8.0 (rev 32) - (C) 2005-2014 United States Government. All rights reserved.
+
+
+====================================================== system under test
+gov.nasa.jpf.test.java.text.DateFormatTest.runTestMethod()
+
+====================================================== search started: 2/7/17 12:39 PM
+[WARNING] orphan NativePeer method: java.util.ResourceBundle.getClassContext()[Ljava/lang/Class;
+
+====================================================== results
+no errors detected
+
+====================================================== search finished: 2/7/17 12:39 PM
+  running jpf with args:
+[WARNING] unknown classpath element: /Users/nshafiei/workspace-jpf/nhandler-ws/jpf-nhandler/build/jpf-nhandler-classes.jar
+JavaPathfinder core system v8.0 (rev 32) - (C) 2005-2014 United States Government. All rights reserved.
+
+
+====================================================== system under test
+gov.nasa.jpf.test.java.text.DateFormatTest.runTestMethod()
+
+====================================================== search started: 2/7/17 12:39 PM
+[WARNING] orphan NativePeer method: java.util.ResourceBundle.getClassContext()[Ljava/lang/Class;
+current date is: Tue Feb 07 12:40:00 PST 2017
+formatted date is: Tuesday, February 7, 2017 12:40:00 PM PST
+re-parsed date is: Tue Feb 07 12:40:00 PST 2017
+
+====================================================== results
+no errors detected
+
+====================================================== search finished: 2/7/17 12:40 PM
+  running jpf with args:
+[WARNING] unknown classpath element: /Users/nshafiei/workspace-jpf/nhandler-ws/jpf-nhandler/build/jpf-nhandler-classes.jar
+JavaPathfinder core system v8.0 (rev 32) - (C) 2005-2014 United States Government. All rights reserved.
+
+
+====================================================== system under test
+gov.nasa.jpf.test.java.text.DateFormatTest.runTestMethod()
+
+====================================================== search started: 2/7/17 12:40 PM
+[WARNING] orphan NativePeer method: java.util.ResourceBundle.getClassContext()[Ljava/lang/Class;
+
+====================================================== results
+no errors detected
+
+====================================================== search finished: 2/7/17 12:40 PM
+------------- ---------------- ---------------
+
+Testcase: testSetAndGetTimeZone took 0.767 sec
+Testcase: testConversionCycle took 0.308 sec
+Testcase: testFormatWithTimeZone took 0.309 sec

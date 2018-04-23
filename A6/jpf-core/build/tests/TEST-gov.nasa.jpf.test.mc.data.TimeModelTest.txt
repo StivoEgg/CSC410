@@ -1,0 +1,49 @@
+Testsuite: gov.nasa.jpf.test.mc.data.TimeModelTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.571 sec
+------------- Standard Output ---------------
+  running jpf with args: +vm.time.class=.vm.SystemTime
+[WARNING] unknown classpath element: /Users/nshafiei/workspace-jpf/nhandler-ws/jpf-nhandler/build/jpf-nhandler-classes.jar
+JavaPathfinder core system v8.0 (rev 32) - (C) 2005-2014 United States Government. All rights reserved.
+
+
+====================================================== system under test
+gov.nasa.jpf.test.mc.data.TimeModelTest.runTestMethod()
+
+====================================================== search started: 2/7/17 12:40 PM
+t1 = 1486500042561
+  t2 = 1486500042586
+    t3 = 1486500042589
+    t3 = 1486500042592
+  t2 = 1486500042594
+    t3 = 1486500042595
+    t3 = 1486500042597
+
+====================================================== results
+no errors detected
+
+====================================================== search finished: 2/7/17 12:40 PM
+  running jpf with args: +vm.time.class=.vm.ConstInsnPathTime
+[WARNING] unknown classpath element: /Users/nshafiei/workspace-jpf/nhandler-ws/jpf-nhandler/build/jpf-nhandler-classes.jar
+JavaPathfinder core system v8.0 (rev 32) - (C) 2005-2014 United States Government. All rights reserved.
+
+
+====================================================== system under test
+gov.nasa.jpf.test.mc.data.TimeModelTest.runTestMethod()
+
+====================================================== search started: 2/7/17 12:40 PM
+t1 = 3227
+  t2 = 3251
+    t3 = 3283
+    t3 = 3283
+  t2 = 3251
+    t3 = 3296
+    t3 = 3296
+
+====================================================== results
+no errors detected
+
+====================================================== search finished: 2/7/17 12:40 PM
+------------- ---------------- ---------------
+
+Testcase: testSystemTime took 0.421 sec
+Testcase: testPathTime took 0.138 sec

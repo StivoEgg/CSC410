@@ -1,0 +1,5 @@
+digraph G {
+  "PreconditionGeneratedEntry" [shape=box];
+  "anon0" [shape=box];
+  "PreconditionGeneratedEntry" -> "anon0";
+}

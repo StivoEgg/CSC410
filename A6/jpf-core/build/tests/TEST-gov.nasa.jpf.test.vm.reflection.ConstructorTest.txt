@@ -1,0 +1,66 @@
+Testsuite: gov.nasa.jpf.test.vm.reflection.ConstructorTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.749 sec
+------------- Standard Output ---------------
+  running jpf with args:
+[WARNING] unknown classpath element: /Users/nshafiei/workspace-jpf/nhandler-ws/jpf-nhandler/build/jpf-nhandler-classes.jar
+JavaPathfinder core system v8.0 (rev 32) - (C) 2005-2014 United States Government. All rights reserved.
+
+
+====================================================== system under test
+gov.nasa.jpf.test.vm.reflection.ConstructorTest.runTestMethod()
+
+====================================================== search started: 2/7/17 12:41 PM
+I'm an X
+
+====================================================== results
+no errors detected
+
+====================================================== search finished: 2/7/17 12:41 PM
+  running jpf with args:
+[WARNING] unknown classpath element: /Users/nshafiei/workspace-jpf/nhandler-ws/jpf-nhandler/build/jpf-nhandler-classes.jar
+JavaPathfinder core system v8.0 (rev 32) - (C) 2005-2014 United States Government. All rights reserved.
+
+
+====================================================== system under test
+gov.nasa.jpf.test.vm.reflection.ConstructorTest.runTestMethod()
+
+====================================================== search started: 2/7/17 12:41 PM
+ctor parameter annotation: @gov.nasa.jpf.test.vm.reflection.ConstructorTest$A(value=this is a parameter annotation)
+====================================================== results
+no errors detected
+
+====================================================== search finished: 2/7/17 12:41 PM
+  running jpf with args:
+[WARNING] unknown classpath element: /Users/nshafiei/workspace-jpf/nhandler-ws/jpf-nhandler/build/jpf-nhandler-classes.jar
+JavaPathfinder core system v8.0 (rev 32) - (C) 2005-2014 United States Government. All rights reserved.
+
+
+====================================================== system under test
+gov.nasa.jpf.test.vm.reflection.ConstructorTest.runTestMethod()
+
+====================================================== search started: 2/7/17 12:41 PM
+ctor annotation: @gov.nasa.jpf.test.vm.reflection.ConstructorTest$A(value=this is a ctor annotation)
+====================================================== results
+no errors detected
+
+====================================================== search finished: 2/7/17 12:41 PM
+  running jpf with args:
+[WARNING] unknown classpath element: /Users/nshafiei/workspace-jpf/nhandler-ws/jpf-nhandler/build/jpf-nhandler-classes.jar
+JavaPathfinder core system v8.0 (rev 32) - (C) 2005-2014 United States Government. All rights reserved.
+
+
+====================================================== system under test
+gov.nasa.jpf.test.vm.reflection.ConstructorTest.runTestMethod()
+
+====================================================== search started: 2/7/17 12:41 PM
+
+====================================================== results
+no errors detected
+
+====================================================== search finished: 2/7/17 12:41 PM
+------------- ---------------- ---------------
+
+Testcase: testConstructorCall took 0.396 sec
+Testcase: testParameterAnnotations took 0.139 sec
+Testcase: testAnnotations took 0.111 sec
+Testcase: testConstructorCallInteger took 0.089 sec
